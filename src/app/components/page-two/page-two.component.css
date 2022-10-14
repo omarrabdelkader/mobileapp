@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Poppins:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.featureParagraphs {
+  margin-bottom: 50px;
+}
+
+.subsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  height: 550px;
+}
+
+.featureInList {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.h4-p-collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.featureInList p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  color: grey;
+}
+
+/* ICONS */
+
+.userIcon {
+  color: rgba(170, 126, 236, 255);
+  font-size: 50px;
+  text-align: center;
+}
+.codeIcon {
+  color: #21cd98;
+  font-size: 50px;
+  text-align: center;
+}
+
+.gearIcon {
+  color: #fc566e;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.rocketIcon {
+  color: #53bbea;
+  font-size: 50px;
+  text-align: center;
+}
+.commentIcon {
+  color: #fcb40b;
+  font-size: 50px;
+  text-align: center;
+}
+
+.downloadIcon {
+  color: rgba(170, 126, 236, 255);
+  font-size: 50px;
+  text-align: center;
+}

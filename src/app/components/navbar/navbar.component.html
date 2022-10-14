@@ -1,0 +1,35 @@
+<header>
+  <img
+    class="logo"
+    src="https://i.ibb.co/3WVch2t/Screenshot-2022-10-13-135247.png"
+  />
+  <nav>
+    <ul class="links">
+      <li>
+        <a href="#">Description</a>
+      </li>
+      <li>
+        <a href="#">Features</a>
+      </li>
+      <li>
+        <a href="#">Screens</a>
+      </li>
+      <li>
+        <div class="dropdown">
+          <button class="extra-button" (click)="onDropMenu()">
+            Extra
+            <img
+              src="https://i.ibb.co/MsTkc8r/down-arrow.png"
+              alt="arrow-down"
+              class="arrow-img"
+            />
+          </button>
+          <div class="dropdown-menu" *ngIf="isMenuOpened">
+            <a href="#">look</a>
+          </div>
+        </div>
+      </li>
+      <li><button class="download-button">Download</button></li>
+    </ul>
+  </nav>
+</header>
